@@ -86,7 +86,7 @@ BYE
  - Edit the makefile and set up the appropriate CUDA SDK and compiler paths for nvcc. Or pass them as variables to `make` command.
 
     ```make
-    CUDA       = /usr/local/cuda-11.0
+    CUDA       = /usr/local/cuda-11.4
     CXXCUDA    = /usr/bin/g++
     ```
  - To build CPU-only version (without CUDA support):
