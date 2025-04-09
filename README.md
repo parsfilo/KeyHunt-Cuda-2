@@ -93,9 +93,9 @@ BYE
     ```sh
     $ make all
     ```
- - To build with CUDA:
+ - To build with CUDA(RTX3060):
     ```sh
-    $ make gpu=1 CCAP=35 all
+    $ make gpu=1 CCAP=86 all
     ```
 
 ## License
